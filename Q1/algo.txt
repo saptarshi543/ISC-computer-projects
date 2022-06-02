@@ -1,0 +1,12 @@
+1. START
+2. take input form user
+3. execute a loop from i=2 to i<(n/2)
+4. check if n is divisible by i from 2 to n/2
+5. if i is not divisible by any value of i then n is prime
+6. if i is divisible by any value of i then print "invalid input" and exit program
+7. to find the reverse of n calculate the n%10 and add to the reverse number
+8. update n by n/10
+9. Now check if the reverse number is prime or not
+10. Repeat steps 3 to 5 to check for prime number
+11. if reverse number is prime number print n is an Emirp number otherwise print n is not an Emirp number
+12. END
