@@ -1,0 +1,41 @@
+Algorithm 
+
+1. Start. 
+
+2. Input a number n. 
+
+3. Find if the number is prime. 
+
+4. Declare a function isPrime() to check prime. 
+
+5. Execute loop from i=1 to i<=n. 
+
+6. If n is divisible by any i then count the number of times it gets divisible by doing c++. 
+
+7. If c==2, then the number n is prime . 
+
+8. If not then stop otherwise go to next step. 
+
+9. Calculate the length (l) of the number by converting n into string. 
+
+10. Then find the divisor=(int)(Math.pow(10,l-1)). 
+
+11. Store a copy of n in m. 
+
+12. Execute a loop from i=0 to i<l to generate new circulated numbers. 
+
+13. Calculate the quotient=n1/divisor and the remainder=n2%divisor. 
+
+14. To generate the new circulated number(m) follow the next step. 
+
+15. m=r*10+n1; 
+
+16. Call the function isPrime() to check whether new number(m) is prime. 
+
+17. If m is not prime then break; 
+
+18. If all the numbers are prime then print it is a circular prime otherwise not a circular 
+
+prime. 
+
+19. Stop 

@@ -15,7 +15,7 @@ public class Emirp{
 	}
 	return true;
 	}
-public static void main(String args[]){
+public static void main(){
 Scanner nrt=new Scanner(System.in);
 System.out.println("enter a number");
 int user=nrt.nextInt();
