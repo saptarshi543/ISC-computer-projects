@@ -1,0 +1,16 @@
+1 START
+2 Ask user to input three characters.
+3 Ask user to input the order of matrix 'M'.
+4 Declare a two dimensional array of type char with name 'M'.
+5 Start a for loop for(int i=0;i<n;i++).
+6 Start a for loop inside as for(int j=0;j<n;j++)
+7 If (i and j are both zero) or (either i is zero and j is n-1) or (i is
+		n-1 and j is zero) or (both i and j are n-1), then
+		fill two dimensional array M at location M[i][j] with the
+		first character the user has given as input.
+8 If i and j lies between 1 and n-2 then fill two dimensional array M at 
+		location M[i][j] with the second character user has given.
+9 Else fill M[i][j] with the third character given as input by the user.
+10 Run two nested loops as for(int i=0;i<n;i++) and inside 
+		for(int j=0;j<n;j++) and print all elements.
+11 END
