@@ -1,3 +1,11 @@
+/*
+ * Write a java program to find the sum of elements of
+ * i)   each row of the matrix
+ * ii)  each column .........
+ * iii) left diagonal of the matrix
+ * iv)  right ...................
+ */
+
 import java.util.Scanner;
 public class Sum{
   public static void main(String args[]){
