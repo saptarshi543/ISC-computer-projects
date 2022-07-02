@@ -1,0 +1,23 @@
+1 START
+2 Take input for the order of matrix as 'n'
+3 Declare and initialise a two dimensional array as int M[][] =
+	new int[n][n]. This will set order of 'M' as n X n
+4 Initialise variables with names r_sum, c_sum, l_d_sum, r_d_sum( standing for
+row sum, column sum, left diagonal sum, right diagonal sum) as type int
+	and declare their values to be zero
+5 Run a for loop as for(int i=o;i<n;i++) and inside another nested loop
+	as for(int j=0;i<n;j++)
+6 Inside nested loop, take input for two dimensional array M
+7 After taking input, run another nested loop as Line 5 and print the array
+8 Run another nested loop as in Line 5
+9 Inside the inner loop, store value of r_sum and c_sum as r_sum+= M[i][j]
+	and c_sum+= M[j][i] respectively
+10 Check if (i==j), if true then store value of l_d_sum as 
+	l_d_sum+= M[i][j]
+11 Check if (i+j)==(n-1), if true then store value of r_d_sum as 
+	r_d_sum += M[i][j]
+12 Outside the inner loop, print values of r_sum and c_sum after every iteration
+	and re-initialise their values with zero
+13 Outside the nested loop. print the values of left diagonal sum and 
+	right diagonal sum as l_d_sum and r_d_sum respectively
+14 END
