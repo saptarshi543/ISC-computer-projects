@@ -1,0 +1,18 @@
+1. START
+2. Declare class with name TheString
+3. Declare variables str(String type) and wordcount, len, cons(all three of int
+	type)
+4. Declare a default constructor and inside set str="", wordcount=0, len=0,
+	cons=0
+5. Declare a parameterised constructor and set str=(ds.trim()).toUpperCase(), where ds is the parameter passed while calling the object of TheString class
+6. Set len=str.length(),wordcount=0, cons=0
+7. Declare a countFreq method and declare an String array d[]=str.split(" ").
+	This stores the words in that sentence. Set wordcount=d.length()
+8. Run a for each loop to iterate through array d
+9. Run a inner loop i=0; i<tmp.length() and declare a char tmp_c=tmp.charAt(i)
+10. Check if tmp_c is a special character or not. If it is then continue
+11. Check if tmp_c is not a vowel. If not a vowel, increase value of cons by 1
+12. Declare display method and print the original string, wordcount, cons
+13. Declare a main method and take a string input.
+14. Create an object of class TheString and pass the user input as a parameter
+15. Call TheString class's countFreq and display method
