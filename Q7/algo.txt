@@ -1,0 +1,16 @@
+1. START
+2. Declare class with name Frequency
+3. Declare variables text(String type) and countand,countan, len(all of int type
+4. Declare a default constructor and inside set values of text="" and 0 for len,countand,countan
+5. Declare a accept method to accept the string form user and set text=n
+6. Declare a checkandfreq method to count the frequency of "and"
+7. Inside declare and initialise a String array d[]=text.split(" ")
+8. Run a for each loop and check if tmp.equals("and")
+9. Declare a checkanfreq method to count the frquency of "an"
+10. Repeat step 7
+11. Run a for each loop and check if tmp.equals("an")
+12. Declare a display method to print the frequencies of "and" and "an"
+13. Declare a main method to take input from user. 
+14. Create a object of Frequency class and call accept method,checkandfreq,
+	checkanfreq,display
+15. END

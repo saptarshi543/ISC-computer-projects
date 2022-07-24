@@ -1,3 +1,63 @@
+/*
+ *Write a program to declare a square matrix M [ ] [ ] of order ‘N’ where ‘N’ must be greater than 3 and less than 10. Allow the user to accept three different characters from the keyboard and fill the array according to the instruction given below: 
+
+  
+
+(i) Fill the four corners of the square matrix by character 1. 
+
+(ii) Fill the boundary elements of the matrix (except the four corners) by character 2. 
+
+(iii) Fill the non-boundary elements of the matrix by character 3. 
+
+  
+
+Test your program with the following data and some random data: 
+
+INPUT: N = 5 
+
+FIRST CHARACTER: A 
+
+SECOND CHARACTER: C 
+
+THIRD CHARACTER: X 
+
+  
+
+OUTPUT: 
+
+A C C C A 
+
+C X X X C 
+
+C X X X C 
+
+C X X X C 
+
+A C C C A 
+
+  
+
+INPUT: N = 4 
+
+FIRST CHARACTER: @ 
+
+SECOND CHARACTER: ? 
+
+THIRD CHARACTER: # 
+
+  
+
+OUTPUT: 
+
+@ ? ? @ 
+
+?  #  # ? 
+
+?  #  # ? 
+
+@ ? ? @ 
+ * */
+
 import java.util.Scanner;
 
 public class Matrix{

@@ -1,3 +1,55 @@
+/*
+ * 
+
+Class Name 
+
+TheString 
+
+Data members/ instance variables 
+
+ 
+
+str 
+
+to store a string  
+
+len 
+
+integer to store length of string 
+
+wordcount 
+
+Integer to store number of words 
+
+cons 
+
+integer to store number of consonants 
+
+Member functions/methods 
+
+ 
+
+TheString() 
+
+Default constructor to initialize 
+
+Data members 
+
+TheString(String ds) 
+
+Parameterized constructor to assign str=ds 
+
+Void countFreq() 
+
+to count the number of words and the number of consonants and store them in wordcount and cons respectively 
+
+Void display()  
+
+To display the original string, along with the number of words and the number of consonants 
+
+Specify the class TheString giving the details of the constructors, void countFreq() and void Display(). Define the main() function to create an object and call the functions accordingly to enable the task. 
+ * */
+
 import java.util.Scanner;
 public class TheString{
 String str;
@@ -21,7 +73,7 @@ void countFreq(){
 	for(String tmp: d){
 		for(int i=0;i<tmp.length();i++){
 			char tmp_c=tmp.charAt(i);
-			if(tmp_c=='.' || tmp_c==',' || tmp_c==' ' || tmp_c=='*')
+			if(tmp_c=='.' || tmp_c==',' || tmp_c==' ' || tmp_c=='*' || tmp_c=='\'' || tmp_c=='!')
 				continue;
 			if(tmp_c!='A' && tmp_c!='E' && tmp_c!='I' && tmp_c!='O' && tmp_c!='U')
 				cons++;
