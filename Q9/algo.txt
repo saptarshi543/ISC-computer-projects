@@ -1,0 +1,15 @@
+1. START
+2. Declare a class Adder
+3. Declare a int array a and h_ans and m_ans both to 0
+4. Declare a default constructor setting the value of array a[0]=0 and a[1]=0
+5. Declare a method readtime to take input of hours and minutes
+6. Declare a method addtime taking two objects(X ,Y) of class Adder as parameters and inside first check if the total sum of minutes of both the time are greater than or equal to 60 or not
+7. If greater than or equal to 60 find the quotient and remainder by dividing the sum by 60 and m_sum%60 for finding the remainder respectively and setting h_ans = quotient + X.a[0] + Y.a[0] and m_ans =remiander
+8. Else set h_ans = X.a[0] + Y.a[0] and m_ans= X.a[1] + Y.a[1]
+9. Declare a method disptime to display the added time
+10. Inside main method Declare two objects(A,B) of class Adder and call them as
+A.readtime();
+B.readtime();
+A.addtime(A,B);
+A.disptime();
+11. END
