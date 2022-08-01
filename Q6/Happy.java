@@ -1,3 +1,50 @@
+/*
+ *A Happy number is a number in which the eventual sum of the square of the digits of the number is equal to 1. 
+
+
+e.g. 28 = (2)2 + (8)² = 4 + 64 = 68 
+
+68 = (6)² +(8) 2 = 36+ 64 = 100 
+
+100 = (1)2 + (0)2 + (0)2=1+0+0=1 notional 
+
+Hence, 28 is a happy number. 
+
+e.g. 12 = (1)2 + (2)²=1+4 = 5 
+
+Hence, 12 is not a happy number. 
+
+Design a class Happy to check if a given number is a happy number. Some of the members of the class are given below: 
+
+Class name: 
+
+Happy 
+
+Data members/instance variables 
+n 
+
+store the numbers 
+
+Member functions 
+Happy () 
+
+constructor to assign 0 to n 
+
+void getnum (int nn) 
+
+to assign the parameter value to the number n = nn 
+
+int sum_sq_digits (int x) 
+
+returns the sum of the square of the digits of the number x 
+
+void ishappy() 
+
+checks if the given number is a happy number by calling the function sum_sq_digits (int) and displays an appropriate message. 
+
+Specify the class Happy giving details of the constructor(), void getnum(int). int sum sq_digits (int) and void ishappy(). Also define a main() function to create an object and call the methods to check for happy number. 
+ */
+
 import java.util.Scanner;
 public class Happy{
 
@@ -11,39 +58,26 @@ nn=n;
 }
 
 int sum_sq_digits(int x){
-	int copy=x,sum=0;
+	int copy=x,sum=0,rem=0;
 	while(copy>0){
-		sum+=Math.pow((copy%10),2);
+		rem= copy%10;
+		sum += (rem*rem);
 		copy/=10;
 	}
 	return sum;
 }
 
 void isHappy(){
-	int copy1=n;
-	boolean f=false;
-	while(true){
-		int tmp=sum_sq_digits(copy1);
-		if(tmp==1){
-			f=true;
-			break;
-		}
-		else{
-			int c=0;
-			while(tmp>0){
-				tmp/=10;
-				c++;
-			}
-			if(c==1)
-				break;
-			else
-				copy1=tmp;
-		}
+	int result=n;
+	while(result != 1 && result != 4){
+		result = sum_sq_digits(result);
 	}
-	if(f==true)
-		System.out.println(n+" is a Happy Number");
+
+	//happy numbers end with 1
+	if(result==1)
+		System.out.println("Happy number");
 	else
-		System.out.println(n+" is not a Happy Number");
+		System.out.println("Not a happy number");
 }
 
 public static void main(String args[]){

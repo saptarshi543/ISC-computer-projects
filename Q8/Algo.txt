@@ -1,0 +1,10 @@
+1. START
+2. Declare class with name EqMat
+3. Declare two dimensional array int a[][] and int m,n;
+4. Declare a parameterised constructor taking arguments mm and nn and inside set values of m=mm and n=nn;
+5. Declare a readArray method to accept elements of the array by running two for loops as int i=0;i<m;i++ and inside int j=0;j<n;j++
+6.Declare a check method to accept two objects of EqMat class check if two arrays are equal or not by running loops as int i=0;i<m;i++ and inside int j=0;j<n;j++ and inside checking if P.
+7. Declare a print method to print the array by running two for loops as int i=0;i<m;i++ and inside int j=0;j<n;j++
+8. Inside main method take user input for rows and columns and initialise two objects of  EqMat class and pass rows and columns as parameters while creating them
+9. class readArray and print method for both the objects and finally call check method to determine if the two matrix are equal or not
+10. End
