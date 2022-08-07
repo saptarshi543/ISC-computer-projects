@@ -6,7 +6,7 @@ e.g. 28 = (2)2 + (8)² = 4 + 64 = 68
 
 68 = (6)² +(8) 2 = 36+ 64 = 100 
 
-100 = (1)2 + (0)2 + (0)2=1+0+0=1 notional 
+100 = (1)2 + (0)2 + (0)2=1+0+0=1  
 
 Hence, 28 is a happy number. 
 
@@ -54,14 +54,13 @@ Happy(){
 }
 
 void getnum(int nn){
-nn=n;
+n=nn;
 }
 
 int sum_sq_digits(int x){
-	int copy=x,sum=0,rem=0;
+	int copy=x,sum=0;
 	while(copy>0){
-		rem= copy%10;
-		sum += (rem*rem);
+		sum += (Math.pow(copy%10,2));
 		copy/=10;
 	}
 	return sum;
