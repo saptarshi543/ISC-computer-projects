@@ -1,14 +1,15 @@
-
-
-isHappyNumber() determines whether a given number is happy or not.
-If the number is greater than 0, then calculate remainder rem by dividing the number with 10.
-Calculate square of rem and add it to a variable sum.
-Divide number by 10.
-Repeat the steps from a to c till the sum of the square of all digits present in number has been calculated.
-Finally, return the sum.
-Define and initialize variable num.
-Define a variable result and initialize it with a value of num.
-If the result is neither equal to 1 nor 4 then, make a call to isHappyNumber().
-Otherwise, if the result is equal to 1 then, given number is a happy number.
-If the result is equal to 4 then, given number is not a happy number.
-
+1. START
+2. Declare class with name Happy
+3. Declare a default constructor setting value of n=0
+4. Declare a getnum method to set value of n to the value the user enters
+5. Declare a sum_sq_digits method to take x as an argument and find out the sum of square of x
+6. Inside sum_sq_digits declare int copy=x and int sum=0
+7. Run a While loop as long as copy is greater than 0. assign sum as sum += Math.pow((copy%10), 2) and copy/=10
+8. Return sum
+9. Declare a isHappy method to check if n is a Happy number or not
+10. Inside declare int result=n and run a while loop as long as result!=1 and result!=4
+11. Inside assign result=sum_sq_digits(result)
+12. Outside the while loop, check if result is 1 or not. If result is 1 , print n is a happy number else print n is not a happy number
+13. Declare a main method to take input from user. 
+14. Create a object of Happy class and call getnum method and pass user input as argument ,and call isHappy method
+15. END
