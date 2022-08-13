@@ -1,3 +1,7 @@
+/*
+ *Write a menu driven program to sort the elements of an integer array using bubble sort, selection sort, insertion sort
+ */
+
 import java.util.Scanner;
 public class Sorting{
 
