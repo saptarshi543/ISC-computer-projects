@@ -1,0 +1,16 @@
+1. Start
+2. Declare a class named Sorting
+3. Declare a one dimensional array as a, declare int n
+4. Declare a parameterised constructor and take argument as int nn
+5. Declare a readArray method
+6. Run a loop as for(int i=0;i<n;i++)
+7. Inside take input for the array
+8. Declare a print method to print the array by running a loop as in LINE 6
+9. Declare a method named bubblesort. Inside initialise int temp=0. Run a loop as in LINE 6. Inside the loop run another loop as for(int j=1; j < (n-i); j++). 
+10. Inside the inner loop check if a[j-1] > a[j]. If yes the set temp= a[j-1] and a[j-1] = a[j] and a[j] = temp
+11. Declare a method named selectionsort and inside run a loop as in LINE 6 and inside initialise int index =i.
+12 Inside run another loop as for (int j = i + 1; j < a.length; j++). Inside check if a[j] < a[index]. If yes, set index=j.
+13. Outer the inner loop, initialise temp= a[index] and a[index]=a[i] and a[i]=temp
+14. Declare a method named insertionsort. Inside initialise int sortvalue=0. Inside set sortvalue=a[i]  and initialise int j. Inside the inner loop check if a[j]>sortvalue. If yes the set a[j+1]=a[j] else break the inner loop. Outside the inner loop set a[j+1]=sortvalue.
+15. Declare a main method and inside take user input in int n for length of the array.Initialise an object of class Sorting. Print the options to user. Inside a switch case call the appropriate function depending on the user's choice.
+16. End
