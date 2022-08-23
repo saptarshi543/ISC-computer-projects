@@ -8,9 +8,7 @@ comments in the top of the source code.
 GITHUB DOES NOT HANDLE .jpg FILES VERY WELL AT ALL
 HENCE I CREATED AN ISSUE WHERE ALL THE OUTPUT SCREENSHOTS 
 OF ALL THE PROGRAMS ARE PROVIDED ALONG WITH THEIR QUESTION NO.
-
-sorry for the inconvenience 
-**
+sorry for the inconvenience**
 
 all the questions along with the algorithm , source code variable description 
 table and output screenshots are available in one place in the 
