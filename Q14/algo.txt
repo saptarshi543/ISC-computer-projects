@@ -1,0 +1,9 @@
+1. START
+2. Declare a class named Disarium
+3. Declare a method isDisarium which return a boolean value
+4. Inside set int n=u, where u is the parameter passed from main method. Initialise int len to store the length of the number.
+5. Initialise int check=0,power=len.
+6. Run a for loop as for(int i=0;i<len;i++) and inside set check += Math.pow((n%	10),power--) and set n/=10
+7. Outside the loop, check if 'check' == u(orignal user input). If true, return true or return false.
+8. Declare a main method and inside take user input in int 'user'.Inside the print statement call isDisarium method and a return a boolean value.
+9. End
