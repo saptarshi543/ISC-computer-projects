@@ -1,0 +1,16 @@
+1. Start
+2. Declare a class named RecurBinSearch
+3. Declare an int array as int a[];
+4. Declare a take_input method to take user input.
+5. Inside set a=new int[len], where len is the length of the array as given by the user
+6. Run a loop as for(int i=0;i<len;i++), where len is the length of the array 'a'
+7. Inside take individual input for the array.
+8. Declare a method display to print the array by running a loop as in LINE	6
+9. Declare a method named insertionsort. Inside initialise int sortvalue=0. Inside set sortvalue=a[i]  and initialise int j. Inside the inner loop check if a[j]>sortvalue. If yes the set a[j+1]=a[j] else break the inner loop. Outside the inner loop set a[j+1]=sortvalue.
+10. Declare a method binary_search with return type of int, taking parameters as array, target element, start position, end position. Inside check start <= end. If true continue else return -1 and end the method there.
+11. Inside the if block set int mid=(start+end)/2
+12. Check if(target==a[mid]), if true, return (mid+1)
+13. Else check if(target > a[mid]), if true then return binary_search(a,target, mid+1 ,end)
+14. Else return binary_search(a,target, start, mid-1)
+15. Declare a main method and inside ask the user for the length of the array and store in user_len. Call take_input method and display method. Then call insertionsort method and print array again using the display method. Inside the Print statement call as binary_search(A.a,t,0,((A.a).length)))
+16.End
