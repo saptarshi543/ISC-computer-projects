@@ -1,3 +1,8 @@
+/*
+ *WAP to perform a binary search recursively..
+ take input from user and sort it using any method
+ * */
+
 import java.util.Scanner;
 public class RecurBinSearch{
 	int a[];
