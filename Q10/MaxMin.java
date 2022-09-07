@@ -33,12 +33,8 @@ public class MaxMin{
 		
 		maxR= Math.max(maxR, arr[i][j]);
 		minR=Math.min(minR, arr[i][j]);
-		
-		
-		
-		//System.out.print(arr[i][j]+"\t");
-	System.out.println("Max of row "+(i+1)+" is "+maxR+"\nMin of row "+(i+1)+" is "+minR);
 	}
+	System.out.println("Max of row "+(i+1)+" is "+maxR+"\nMin of row "+(i+1)+" is "+minR);
 	}
 
 
@@ -47,7 +43,6 @@ public class MaxMin{
 		for(int i=0;i<M;i++){
 			maxC=Math.max(maxC, arr[i][j]);
 			minC=Math.min(minC, arr[i][j]);
-		//System.out.println(arr[i][j]);
 		}
 	System.out.println("Max of column "+(j+1)+" is "+maxC+"\nMin of column "+(j+1)+" is "+minC);
 	}
