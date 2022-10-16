@@ -4,13 +4,15 @@
 import java.util.Scanner;
 public class DecToBin{
 	int binary_to_decimal(int n){
-		String s=Integer.toString(n);
-		int ans=Integer.parseInt((Integer.toString(n)),2);
-		return ans;
+		if(n==0)
+			return 0;
+		return n%10+2*binary_to_decimal(n/10);
 	}
 	int decimal_to_binary(int n){
-		String ans=Integer.toBinaryString(n);
-		return (Integer.parseInt(ans));
+		if(n==0)
+			return 0;
+		else 
+			return (n%2 +10 * decimal_to_binary(n/2));
 	}
 	public static void main(String arg[]){
 		Scanner nrt=new Scanner(System.in);
