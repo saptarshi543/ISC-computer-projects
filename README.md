@@ -50,6 +50,6 @@ Q12. Write a menu driven program in java for Insertion , Bubble and Selection so
 
 Q13. Write a menu driven program in java to convert a binary to decimal and vice versa
 
-Q14. Disarium no.
+Q14. Disarium no.(using recursive technique)
 
 Q15. Recursive Binary Search
