@@ -1,9 +1,10 @@
 1. START
-2. Declare a class named Disarium
-3. Declare a method isDisarium which return a boolean value
-4. Inside set int n=u, where u is the parameter passed from main method. Initialise int len to store the length of the number.
-5. Initialise int check=0,power=len.
-6. Run a for loop as for(int i=0;i<len;i++) and inside set check += Math.pow((n%	10),power--) and set n/=10
-7. Outside the loop, check if 'check' == u(orignal user input). If true, return true or return false.
-8. Declare a main method and inside take user input in int 'user'.Inside the print statement call isDisarium method and a return a boolean value.
-9. End
+2. Declare a class named Disarium and initialize variables int num,size.
+3. Declare a parameterised constructor taking int n as argument and inside set num=n  and size=0.
+4. Declare a method countDigits and inside initialize variables as  int copy=num,count=0.
+5. Run a while loop as long as copy is greater than 0 and post increment count. Outside the loop set size = count.
+6. Declare a method SumOfDigits taking arguments as int n,int p.
+7. Check if n is 0 then return 0 else return (int)(Math.pow(n%10,p))+SumOfDigits(n/10,p-1).
+8. Declare a main method and take user input.
+9. Initialize a object of class Disarium and call countDigits and check methods.
+10. END

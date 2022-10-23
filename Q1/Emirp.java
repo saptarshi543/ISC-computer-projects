@@ -1,8 +1,6 @@
 /*
- * question 1
- * Write a java program to check whether a number is emirp number or not.
- * */
-
+An emirp number is a number which is prime backwards and forwards. Example : 13 and 31 are both prime numbers. Thus 13 is a emirp number. Write a java program to check whether a number is emirp number or not. 
+*/
 
 import java.util.Scanner;
 public class Emirp{
