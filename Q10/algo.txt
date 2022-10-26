@@ -6,4 +6,7 @@
 6. Run a loop as for(int i=0;i<M;i++) and inside for(int j=0;i<N;j++)
 7. Inside take input as arr[i][j]=nrt.nextInt()
 8. Declare a method display to print the array by running a loop as in LINE 6
-9. Declare a method findMaxMin and inside initialise int maxR=arr[0][0],minR=arr[0][0],maxC=arr[0][0],minC=arr[0][0]. Start a try block and inside run a loop as in LINE 6, and inside set maxR= Math.max(maxR, arr[i][j]); minR=Math.min(minR, arr[i][j]) and outside print the max and min element of that current row.
+9. Declare a method findMaxMin. Inside run a loop as for (int i=0;i<M;i++) and inside initialise int maxR=0,minR=arr[i][0]. Run another loop as for(int j=0;j<N;j++). Inside check if(maxR<arr[i][j]) then set maxR=arr[i][j]. Also check if(minR>arr[i][j]) then set minR=arr[i][j]. Outside the inner loop print the max and min value ans re-set maxR=0;minR=0.
+10. Outside the loops, run another loop for columns as for(int j=0;j<N;j++) and initialize int maxC=0,minC=arr[0][j]. Run another loop as for(int i=0;i<M;i++). Inside check if(maxC<arr[i][j]) then set maxC=arr[i][j]. Also check if if(minC>arr[i][j]) then set minC=arr[i][j]. Outside the inner loop print the max and min values and re-set minC=0;maxC=0.
+11. Declare a main method to take user input for number of rows and columns. Check if both rows and columns are greater than 2 and lesser than 20 or not. If not then exit showing appropriate message. Else, call the readArray , display and findMaxMin methods.
+12. END
