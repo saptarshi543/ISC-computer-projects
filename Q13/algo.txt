@@ -1,7 +1,10 @@
 1. START
 2. Declare a class DecToBin
-3. Declare a method "binary_to_decimal" and using recursion inside check if the argument passed is 0. If not zero return n%10+2*binary_to_decimal(n/10). If argument is zero then return 0.
-4. Declare a method "decimal_to_binary" and using recursion inside check if argument passed is zero.If argument is not zero return (n%2 +10 * decimal_to_binary(n/2)). If argument is zero, return 0.
-5. Declare a main method print out the choice to user and input the number. 
-6. Check the users choice and accordingly call the methods and display the result.
-7. END
+3. Declare a method "binary_to_decimal" and using recursion inside check if the argument passed is 0. 
+4. If not zero return n%10+2*binary_to_decimal(n/10). 
+5. If argument is zero then return 0.
+6. Declare a method "decimal_to_binary" and using recursion inside check if argument passed is zero.
+7. If argument is not zero return (n%2 +10 * decimal_to_binary(n/2)). If argument is zero, return 0.
+8. Declare a main method print out the choice to user and input the number. 
+9. Check the users choice and accordingly call the methods and display the result.
+10. END
