@@ -1,0 +1,11 @@
+1. START
+2. Declare a class DateChecking
+3. Initialize int dd,mm,yy boolean leap=false,ch=false
+4. Declare a method take_input to take date,month and year as user input
+5. Declare a method checkValidity and first check if dd<32 and dd>0.
+6. Then check dds value according to the month. Also check if the year is a leap yearor not.
+7. Then finally check for February.
+8. Declare a method calculateDay and initialize int count=0.
+9. Run a loop as for(int i=1; i<mm;i++) and inside according to the month add 31 or 30 days to the count. Return (count-1) as 1 day is extra.
+10. Declare a main method and inside take input. If the date is valid, print "Valid Date" and  call calculateDay method else print "Invalid Date"
+11. END 

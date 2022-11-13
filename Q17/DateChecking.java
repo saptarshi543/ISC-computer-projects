@@ -1,3 +1,8 @@
+/*
+Design a program that accepts your DOB in dd/mm/yyyy format.
+Check if the date entered is valid or not. If valid display "Valid Date" 
+also compute the day no. of the year for the DOB, else display "Invalid Date".
+ */
 import java.util.Scanner;
 public class DateChecking{
     int dd,mm,yy;
@@ -52,7 +57,7 @@ public class DateChecking{
         DateChecking D=new DateChecking();
         D.take_input();
         if(D.checkValidity())
-            System.out.println("Day no. of the year is: "+D.calculateDay());
+            System.out.println("Valid Date\nDay no. of the year is: "+D.calculateDay());
         else
             System.out.println("Invalid Date");
     }
