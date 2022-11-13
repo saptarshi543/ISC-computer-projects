@@ -1,0 +1,12 @@
+1. START
+2. Declare a class named Matrix
+3. Initialize values as int m1_r,m1_c,m2_r,m2_c and boolean sum_difference=false,product=false
+4. Declare a method as take_input to take input of the rows and columns of both the matrices
+5. Declare a method check to check if sum, difference and product Operation is possible or not. If both are impossible then exit showing appropriate message
+6. Declare a method takeElementInput to take the input of elements of both the matrices
+7. Declare a method display to print the matrices by running a loop as for(int i=0;i<m2_r;i++) and inside for(int j=0;j<m2_c;j++)
+8. Declare a method sum and check if both their rows and columns are same or not. Then run a loop as for(int i=0;i<m2_r;i++) and put the result in the ans matrix.
+9. Declare a method difference and check if both their rows and columns are same or not. Then run a loop as for(int i=0;i<m2_r;i++) and put the result in the ans matrix. 
+10. Declare a method find_product and run a loop as for(int i=0;i<m1_r;i++) and inside as for(int j=0;j<m2_c;j++). Inside set ans[i][j]=0. Run a third loop as for(int k=0;k<m1_c;k++) and inside set ans[i][j] += (M1[i][k]*M2[k][j]). Outside the three loops print the ans matrix.
+11. Declare a main method and call the methods accordingly.
+12. END
