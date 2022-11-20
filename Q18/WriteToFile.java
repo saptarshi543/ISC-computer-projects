@@ -7,12 +7,8 @@ public class WriteToFile{
         try{
         WriteToFile OB=new WriteToFile();
         FileWriter F=new FileWriter("/home/sap543/Documents/school-projects/Q18/Data.txt");
-        //Scanner nrt=new Scanner(F);
-        //PrintWriter P=new PrintWriter(nrt);
-        //OB.take_info_input(P);
         OB.take_info_input(F);
         F.close();
-        //P.close();
         }
         catch(IOException e){System.out.println(e);}
     }
@@ -43,15 +39,14 @@ public class WriteToFile{
                             else
                                 lastName+=tmpChar;
                         }
-                        P1.write(firstName+" "+lastName+"\t\t\t\t");
+                        P1.write(firstName+" "+lastName+"\t\t\t\t\t\t");
                     }else{
                     P1.write(tmpC+"\t\t\t\t");}
                 }
                 P1.write("\n");
-                // P1.write(name+"\t"+roll+"\t"+stream+"\n");
             }
         }
-        catch(InputMismatchException e1){System.out.println(e1);}
+        catch(IOException e1){System.out.println(e1);}
     }
     public static void main(String d[]){
         WriteToFile OBJ=new WriteToFile();
