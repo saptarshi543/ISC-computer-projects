@@ -1,4 +1,6 @@
-/**/
+/*
+ *Design a class to take input from 5 students about their name, stream, roll no. and store that in a file "Data.txt"
+ */
 import java.util.*;
 import java.io.*;
 
