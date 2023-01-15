@@ -1,0 +1,13 @@
+1. START
+2. Declare a class named Series
+3. Declare a method as factorial taking a int variable "a" as parameter.
+4. Inside initialize int f=1. Run a for loop as for(int i=1;i<=a;i++)
+5. Inside the loop update f as f*=i;
+6. Declare a method as Series1 taking (int x, int n) as parameter.
+7. Inside set int sum=0, and run a for loop as for(int i=2;i<=n;i++).
+8. Inside the loop, update sum as sum+=((Math.pow(x,i))/(S.factorial(i-1))).
+9. Declare a method as Series1 taking (int x, int n) as parameter.
+10.Inside set int sum=0, and run a for loop as for(int i=2;i<=n;i++).
+11.Inside the loop, update sum as sum+=((Math.pow(x,i))/(S.factorial(i-1))).
+12.Create a main method and call the methods accordingly.
+13. END
