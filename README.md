@@ -61,3 +61,9 @@ Check if the date entered is valid or not. If valid display "Valid Date"
 also compute the day no. of the year for the DOB, else display "Invalid Date".
 
 Q18. Design a class to take input from 5 students about their name, stream, roll no. and store that in a file "Data.txt"
+
+Q19. Series Program
+
+Q20.
+
+Q21. Checking validity of a 10digit ISBN no.
