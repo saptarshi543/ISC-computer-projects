@@ -1,0 +1,13 @@
+1. START
+2. Declare a class named ISBN
+3. Declare a method named isValid returning boolean value
+4. Inside check if length of the isbn provided by the user is 10 or not
+	if not 10, return false.
+5. If length is 10, initialize int sum=0, count=10.
+6. Run a for loop as for(int i=0; i<=9 ;i++). Inside set int digit=s.charAt(i)-'0'. Update sum as sum +=(count-- * digit).
+7. Check if the sum is divisible by 11 or not and accordingly return a boolean v	alue.
+8. Declare a main method.
+9. Take user input in the form of string 
+10.Initialize boolean ans=O.isValid(String.valueOf(user))
+11.Print "VALID" or "INVALID" according isValid method
+12.END
