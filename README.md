@@ -60,10 +60,10 @@ Q17. Design a program that accepts your DOB in dd/mm/yyyy format.
 Check if the date entered is valid or not. If valid display "Valid Date" 
 also compute the day no. of the year for the DOB, else display "Invalid Date".
 
-Q18. Design a class to take input from 5 students about their name, stream, roll no. and store that in a file "Data.txt"
+Q18. /*To be changed*/
 
-Q19. Series Program
+Q19. 2-D array of order MXN. Write a java program to perform a right circular shift and a left circular shift on alternate rows and columns. 
 
-Q20.
+Q20. Series Program
 
 Q21. Checking validity of a 10digit ISBN no.
