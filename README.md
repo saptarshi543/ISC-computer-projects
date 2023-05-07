@@ -60,7 +60,7 @@ Q17. Design a program that accepts your DOB in dd/mm/yyyy format.
 Check if the date entered is valid or not. If valid display "Valid Date" 
 also compute the day no. of the year for the DOB, else display "Invalid Date".
 
-Q18. /*To be changed*/
+Q18. Inheritance
 
 Q19. 2-D array of order MXN. Write a java program to perform a right circular shift and a left circular shift on alternate rows and columns. 
 
