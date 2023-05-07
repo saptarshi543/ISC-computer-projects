@@ -1,6 +1,0 @@
-Name:					Roll no.:			Stream:
-Person A				23				science				
-Derek Tuner				34				commerce				
-Person B				54				Humanities				
-Jimmy Donaldson				34				science				
-Bradley Colburn				35				Science				

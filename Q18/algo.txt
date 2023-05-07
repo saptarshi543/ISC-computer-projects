@@ -1,10 +1,25 @@
 1. START
-2. Declare a class WriteToFile.
-3. Declare a method take_input to initialize a FileWriter object and pass that to take_info_input. Also throw IOException and catch it accordingly.
-4. Pass the FileWriter object to take_info_input method.  
-5. Declare a method take_info_input and inside the try block write the headings of the columns.
-6. Also throw IOException and catch it accordingly. Ask the user to input the students name, class ,roll.
-7. Run a loop for 5 times and take the input.
-8. Check the name for the second capital occuring in the name and separate first and last name accordingly.
-9. Write that to the file.
-10. Declare a main method and call the methods accordingly.
+2. Declare a class Plane
+	i) Initialize integer values as x1,y1.
+	ii) Declare a parameterised constructor taking int x, int y as parameters.
+	iii) Set x1=x and y1=y.
+	iv) Declare a method show to print the values of x1 and x2
+
+3. Declare a class Circle which extends Plane
+	A)
+		i) Initialize integer values as x2,y2.
+		ii) Declare a parameterised constructor taking int a, int b, int c, int d as parameters.
+		iii) Call the super class's constructor as super(a,b).
+		iv) Set x2=c, y2=d.
+	B) Declare a method named findRadius.
+		Set radius as (Math.sqrt( ( Math.pow((x2-x1),2) + Math.pow( (y2-y1), 2) )  )) /2.
+	C) Declare a method named findArea.
+		Set area as ((22/7)*(Math.pow(radius,2))).
+	D) Declare a method as show.
+		Print the coordinates of both classes along wih the radius and area.
+	E) Declare a main method.
+		i) Take input from user for the four co-ordinates.
+		ii) Initialize a object of class Circle.
+		iii) Call findRadius, findArea, show
+
+4. END
