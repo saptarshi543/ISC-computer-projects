@@ -1,0 +1,23 @@
+1. START
+2. Declare a Class named Whrl.
+3. Inside initialize integer variables as m,n, arr[][].
+4. Declare a method named take_input.
+	A. Initialize a Scanner object and take input for values of m and n.
+	B. Run a loop from 0 to m
+	C. Run another loop inside from 0 to n and take the elements of the array as input
+5. Declare a method named Shift.
+	A. Initialize integer variables as j,i,tmp.
+	B. Run a loop from 0 to m. Check if i is divisible by 2
+		i) If divisible, set tmp as arr[i][n-1]. Run a loop from (n-1) to 1.
+			Inside update arr[i][j]=arr[i][j-1]. Outside the loop set arr[i][0]=tmp.
+		ii) Else, set tmp as tmp=arr[i][0]. Run a loop from 1 to n.
+			Inside update arr[i][j-1]=arr[i][j]. Outside set arr[i][j-1]=tmp.
+
+6. Declare a method named display.
+	i) Run a loop as 4,A and 4,B
+	ii) Inside print the values of the array.
+	iii) Outside the innermost loop go to a new line.
+
+7. Declare a main method.
+	i) Initialize an object of class Whrl.
+	ii) Call methods accordingly.
