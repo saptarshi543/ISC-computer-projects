@@ -67,3 +67,7 @@ Q19. 2-D array of order MXN. Write a java program to perform a right circular sh
 Q20. Series Program
 
 Q21. Checking validity of a 10digit ISBN no.
+
+Q22. ANother inheritance prog(series)
+
+Q23. Wordpile

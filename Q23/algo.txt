@@ -1,0 +1,23 @@
+1. Start 
+
+2. Declare class WordPile 
+
+3. Declare a character array as char ch[]; and declare int top, capacity; 
+
+4. Declare a constructor with parameter int cap to take capacity of the stack and set top=-1, capacity=cap and ch =new char[cap]; 
+
+5. Declare a pushChar method taking char v as argument and inside if stack is not already full, set ch[++top]=v else display  WordPile is full. 
+
+6. Declare a popChar method to remove the topmost element of the stack. Inside if the stack is empty display \\ else set int x=ch[top--]; and return x 
+
+7. Declare a display method to print the stack. 
+
+8. Inside run a loop as for(int i=0;i<=top;i++)  
+
+9. Inside the loop print as ch[i]; 
+
+10. Declare main method and take the capacity of the stack as input. Create an object of class WordPile as W and call W.take_input(); Declare char tmp. 
+
+11.  Inside a while loop take user input according to their choice to either display the stack , add character to the stack, remove the topmost character, or to exit the program using switch case and calling W.pushChar() and W.popChar() and W.display() accordingly. 
+
+12. END 
