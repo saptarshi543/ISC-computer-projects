@@ -68,6 +68,6 @@ Q20. Series Program
 
 Q21. Checking validity of a 10digit ISBN no.
 
-Q22. ANother inheritance prog(series)
+Q22. Another inheritance program(series)
 
-Q23. Wordpile
+Q23. Wordpile(stack program)

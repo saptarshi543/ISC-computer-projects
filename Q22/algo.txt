@@ -1,0 +1,16 @@
+1. START 
+2. Declare a class named Number
+	a) Declare a int named n.
+	b) Declare a parameterised constructor and assign n=x.
+	c) Declare a int method named factorial taking a int as argument.
+	d) Inside set int f=1.
+	e) Run a loop from i=1 to argument. Inside update f as f*=i.
+	f) Declare a void method named display and display the value of n.
+
+3. Declare a class named Series which extends Number
+	a) Declare a parameterised constructor and call superclass's constructor.
+	b) Declare a void method named calSum. 
+	c) Run a loop from i=1 to n and inside update sum+=factorial(i).
+	d)Declare a void method named display and call superclass's display method and  print the sum
+
+4. Declare a main method and Initialize an object and call methods accordingly
