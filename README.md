@@ -71,3 +71,5 @@ Q21. Checking validity of a 10digit ISBN no.
 Q22. Another inheritance program(series)
 
 Q23. Wordpile(stack program)
+
+Q24. Queue program
