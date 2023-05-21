@@ -1,0 +1,24 @@
+1. START
+2. Declare a class named Queue.
+	a) Initialize integer variables MAX, size, front, rear.
+	Note that variable MAX is a constant.
+
+	b) Initialize an intger array named que.
+	
+	c) Delare a parametrised constructor and inside declare size,que, and set front and rear both to 0.
+	
+	d) Declare a method named addele with parameter int v. Inside check if rear<(size-1).
+		i) If true, set que[rear]=v, update rear as rear++, print that the element has been added to the queue.
+		ii) Else, print "Queue overflow".
+	
+	e) Declare a method named delele and check if front is equal to rear.
+		i) If true, return -9999.
+		ii) Else, return que[front++].
+
+	f) Declare a method named show. Check if front is equal to rear.
+		i) If true, print "Empty"
+		ii) Else, run a loop from rear to front, decrementing the variable. Inside print que[i].
+
+3. Declare a main method and inside declare variable s=100. Call the methods accordingly.
+
+4. END
