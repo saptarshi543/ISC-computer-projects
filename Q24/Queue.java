@@ -25,13 +25,14 @@ public class Queue
     int size,front,rear; 
     public Queue(int mm)
     {
-        size=mm;
+        size=(mm<=100)?mm:100;
+        System.out.println("size: "+size);
         que=new int[size];
         front=0;rear=0;
     }
     public void addele(int v)
     {
-        if(rear<size-1)
+        if(rear<size)
         {
            que[rear]=v;
            rear++;
@@ -67,19 +68,24 @@ public class Queue
  
     public static void main(String args[]) 
     {
-        int s=100,n=0;
-        Queue obj=new Queue(s);
+        int n=0;
+        System.out.println("Enter capacity");
+        
         Scanner sc=new Scanner(System.in);
+
+        Queue obj=new Queue(sc.nextInt());
+        System.out.println("\n\nEnter 1 to add an element to a queue");
+        System.out.println("Enter 2 to delete an element from a queue");
+        System.out.println("Enter 3 to show elements of a queue");
+        System.out.println("Enter any other number to exit");
+            
+
         while(true){
-            System.out.println("\n\nEnter 1 to add an element to a queue");
-            System.out.println("Enter 2 to delete an element from a queue");
-            System.out.println("Enter 3 to show elements of a queue");
-            System.out.println("Enter any other number to exit");
             System.out.println("Enter your choice");
             switch (sc.nextInt())
             {
                 case 1:
-                System.out.println("\nEnter an integer to be added to the queue");
+                System.out.println("Enter an integer to be added to the queue");
                 n=sc.nextInt();
                 obj.addele(n);
                 break;
