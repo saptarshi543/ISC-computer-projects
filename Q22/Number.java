@@ -1,7 +1,7 @@
   class Number{
       int n;
-      Number(int x){
-          n=x;
+      Number(){
+          n=0;
       }
       int factorial(int a){
         int f=1;
