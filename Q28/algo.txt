@@ -1,0 +1,22 @@
+1. START
+2. Declare a class named Cipher
+	i) Initialize variables as String str, int length.
+
+3. Declare a method named take_input.
+	i) Take user input for the string.
+	ii) Check if length is lesser than 3 or greater than 100, if true, exit program
+
+4. Declare a method encrypt
+	i) Declare String ans="".
+	ii) Declare two char arrays starting from n and cycling back to m.
+	example:
+			char letters[]={'n','o','p','q','r','s','t','u','v','w','x','y','z','a','b','c','d','e','f','g','h','i','j','k','l','m'};
+
+	iii) The same is done for char alphabets[] and it contains the alphabets.
+	iv) Run a for loop from 0 to length-1. Initialize char tmp as tmp=str.charAt(i), where i is the loop variable.
+	v) Inside check if it is a question mark, space, etc, etc. If true, set ans+=tmp.
+	vi) Check if tmp is upper case, if true, set 				ans+=alphabets[((int)(tmp)-65)].
+	vii) Check if tmp is lower case, if true, set 				ans+=letters[((int)(tmp)-97)].
+	viii) Return the string ans.
+
+5. Declare a main method and call methods accordingly.
