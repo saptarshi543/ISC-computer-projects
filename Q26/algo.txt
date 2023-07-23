@@ -16,3 +16,4 @@
 	vii) Return count if there are no remaining boxes, else return count+1
 
 5. Declare a main method and create an class object and call methods accordingly.
+6. END

@@ -1,0 +1,34 @@
+1. START
+2. Declare a class named Quiz
+	i) Initialize three arrays as char arr[][], int marks[], key[].
+	ii) arr and key are of type char and marks is of type int.
+	iii) Initialize int N to store the total number of participants.
+
+3. Declare a parameterized constructor taking int n as parameter.
+	i) Check if n is greater than 3 and less than 11, else exit the program.
+	ii) Set N=n, declare the arrays as arr= new char[N][5], marks=new int[N], key=new char[5]
+
+4. Declare a method named take_input.
+	i) Take user input for the participants answer by running a loop from 0 to N-1 and an inner loop from 0 to 4.
+	ii) Take input for the answer key by running a loop from 0 to 4.
+
+5. Declare a method named display.
+	i) Display the participants options along with the key by running the same loop as in 4)i and 4)ii.
+
+6. Declare a method named check.
+	i) Declare a int variable count.
+	ii) Run a loop as 4)i and 4)ii.
+	iii) Inside check if key at position j is same as arr at position i,j. If same, increment count.
+	iv) Outside the inner loop, set marks at position i = count and reset count=0.
+	v) Print the participants scores
+
+7. Declare a method named get_high.
+	i) Declare a integer variable max=0.
+	ii) Run a for loop from 0 to N-1.
+	iii) Inside check if marks at position i is greater than marks at position i+1.
+	iv) If greater, then set max=marks[i] and this way get the highest value.
+	v) Run a for loop from 0 to N-1 and check which participant(s) have the highest score and print their scores.
+
+8. Declare a main method and call methods accordingly.
+
+9.END
