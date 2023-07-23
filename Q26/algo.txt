@@ -1,0 +1,18 @@
+1. START
+2. Declare a class named Cartons
+	i) Declare a class variable N to store the total no. of boxes.
+
+3. Declare a method named take_input
+	i) Initialise a Scanner object and take user input for the total no. of boxes.
+	ii) If N is greater than 1000, exit the program
+
+4. Declare a method break_up
+	i) Declare integer variables count=0 and copy=N.
+	ii) Run a for loop from 48, decrementing to half its original value till it is greater than or equal to six.
+	iii) Inside the loop, set count as count +(copy/i)
+	iv) Print the carton size used and how many were used
+	v) Update copy as copy%i
+	vi) Outside the loop print the remaining no. of boxes
+	vii) Return count if there are no remaining boxes, else return count+1
+
+5. Declare a main method and create an class object and call methods accordingly.
