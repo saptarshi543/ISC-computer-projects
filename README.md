@@ -73,3 +73,11 @@ Q22. Another inheritance program(series)
 Q23. Wordpile(stack program)
 
 Q24. Queue program
+
+Q25. String program to implement queue(Not finished yet)
+
+Q26. Program to find the least no. of cartons required for N no. of boxes 
+
+Q27. Program to check marks of participants in a quiz competition. 
+
+Q28. Ceasar encryption 
