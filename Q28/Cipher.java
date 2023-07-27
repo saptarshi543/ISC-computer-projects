@@ -16,9 +16,7 @@ public class Cipher{
 	String encrypt(){
 		String ans="";
 		char letters[]={'n','o','p','q','r','s','t','u','v','w','x','y','z','a','b','c','d','e','f','g','h','i','j','k','l','m'};
-	  char alphabets[]={'N','O','P','Q','R','S','T','U','V','W','X','Y','Z','A','B','C','D','E','F','G','H','I','J','K','L','M'};
-		// A B C D E
-		// 1 2 3 4 5
+	  
 
 		for(int i=0;i<length;i++){
 			char tmp=str.charAt(i);
@@ -30,7 +28,7 @@ public class Cipher{
 			if(Character.isUpperCase(tmp)){
 				//alphabets
 				
-				ans+=alphabets[((int)(tmp)-65)];
+				ans+=((letters[((int)(tmp)-65)])+"").toUpperCase();
 			}
 			if(Character.isLowerCase(tmp)){
 				//letters
