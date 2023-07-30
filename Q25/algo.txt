@@ -1,0 +1,25 @@
+1. START
+2. Declare a class named Diary.
+	a) Initialize integer variables size, start, end.
+	b) Initialize an String array named Q.
+	c) Delare a parametrised constructor and inside declare size,Q, and set start and end both to 0, else exit showing "Out of range!".
+	
+	d) Declare a method named pushadd with parameter String n. Inside check if end<(size-1).
+		i) If true, set Q[end]=n, update end as end++, print that the element has been added to the Queue.
+		ii) Else, print "NO SPACE".
+	
+	e) Declare a method named popadd and check if start is equal to end.
+		i) If true, return "????".
+
+		ii) Else, a) Initialize and declare String removed = Q[start].
+			b) Run a loop through 0 to end-1, inside setting Q[i]=Q[i+1].
+			c) Decrement end.
+			d) return removed.
+
+	f) Declare a method named show. Check if start is equal to end.
+		i) If true, print "Empty"
+		ii) Else, run a loop from start to end-1, incrementing the variable. Inside print Q[i].
+
+3. Declare a main method and inside declare variable s=100. Call the methods accordingly.
+
+4. END

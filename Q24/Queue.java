@@ -20,19 +20,21 @@ import java.util.*;
 
 public class Queue
 {
-    //final int MAX=100; 
     int que[]; 
     int size,front,rear; 
     public Queue(int mm)
     {
-        size=(mm<=100)?mm:100;
-        System.out.println("size: "+size);
+        if(mm>100){
+            System.out.println("Out of range!");
+            System.exit(0);
+        }
+        size=mm;
         que=new int[size];
         front=0;rear=0;
     }
     public void addele(int v)
     {
-        if(rear<size)
+        if(rear<size-1)
         {
            que[rear]=v;
            rear++;
@@ -50,7 +52,12 @@ public class Queue
             return (-9999); 
         else
         {
-            return que[front++];
+            int removed=que[front];
+            for (int i=0;i<rear-1 ;i++ ) {
+                que[i]=que[i+1];
+            }
+            rear--;
+            return removed;
             
         }
     }
@@ -60,7 +67,7 @@ public class Queue
             System.out.print("Empty");
         else
         {
-            for (int i=rear-1;i>=front;i--)
+            for (int i=front;i<=(rear-1);i++)
                 System.out.print(que[i]+"    ");
         }
         System.out.println();
@@ -68,24 +75,24 @@ public class Queue
  
     public static void main(String args[]) 
     {
-        int n=0;
-        System.out.println("Enter capacity");
-        
+        int s=100,n=0;
         Scanner sc=new Scanner(System.in);
 
-        Queue obj=new Queue(sc.nextInt());
+        System.out.println("Enter capacity:");
+        Queue obj=new Queue(sc.nextInt()+1);
+
+
         System.out.println("\n\nEnter 1 to add an element to a queue");
         System.out.println("Enter 2 to delete an element from a queue");
         System.out.println("Enter 3 to show elements of a queue");
         System.out.println("Enter any other number to exit");
+        System.out.println("Enter your choice");
             
-
         while(true){
-            System.out.println("Enter your choice");
-            switch (sc.nextInt())
+           switch (sc.nextInt())
             {
                 case 1:
-                System.out.println("Enter an integer to be added to the queue");
+                System.out.println("\nEnter an integer to be added to the queue");
                 n=sc.nextInt();
                 obj.addele(n);
                 break;
