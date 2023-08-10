@@ -19,3 +19,5 @@
 	vii) Return the string ans.
 
 5. Declare a main method and call methods accordingly.
+
+6. END
