@@ -74,7 +74,7 @@ Q23. Wordpile(stack program)
 
 Q24. Queue program
 
-Q25. String program to implement queue(Not finished yet)
+Q25. String program to implement queue
 
 Q26. Program to find the least no. of cartons required for N no. of boxes 
 

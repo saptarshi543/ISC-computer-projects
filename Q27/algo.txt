@@ -23,9 +23,9 @@
 	v) Print the participants scores
 
 7. Declare a method named get_high.
-	i) Declare a integer variable max=0.
-	ii) Run a for loop from 0 to N-1.
-	iii) Inside check if marks at position i is greater than marks at position i+1.
+	i) Declare a integer variable max=marks[0].
+	ii) Run a for loop from 1 to N.
+	iii) Inside check if marks at position i is greater than max.
 	iv) If greater, then set max=marks[i] and this way get the highest value.
 	v) Run a for loop from 0 to N-1 and check which participant(s) have the highest score and print their scores.
 

@@ -59,7 +59,7 @@ INPUT:
 N = 12
 
 OUTPUT:
-INPUT SIZE OUT OF RANGE.
+INPUT SIZE OUT OF RANGE
 
 */
 
@@ -73,7 +73,7 @@ public class Quiz{
 	int N;
 	Quiz(int n){
 		if(n<=3 || n>=11){
-			System.out.println("INVALID INPUT");
+			System.out.println("INPUT SIZE OUT OF RANGE");
 			System.exit(0);
 		}
 		N=n;
@@ -87,15 +87,17 @@ public class Quiz{
 		Scanner nrt=new Scanner(System.in);
 		for(int i=0;i<N;i++){
 			System.out.println("Participant: "+(i+1));
-			for(int j=0;j<5;j++){
-				arr[i][j]=(nrt.nextLine()).charAt(0);
+			String user_input[]=((nrt.nextLine()).trim()).split(" ");
+			for(int j=0;j<user_input.length;j++){
+				arr[i][j]=user_input[j].charAt(0);
 			}
 		}
 
 		//taking key input
 		System.out.println("Enter the key: ");
+		String user_input2[]=((nrt.nextLine()).trim()).split(" ");
 		for(int i=0;i<5;i++){
-			key[i]=(nrt.nextLine()).charAt(0);
+			key[i]=user_input2[i].charAt(0);
 		}
 	}
 
@@ -132,15 +134,14 @@ public class Quiz{
 
 
 	void get_high(){
-		int max=0;
-
-		for(int i=0;i <(N-1);i++){
-			if(marks[i]>marks[i+1])
+		int max=marks[0];
+		for(int i=1;i <N;i++){
+			if(marks[i]>max)
 				max=marks[i];
 		}
 
-		System.out.println("List of Highest scorer(s)");
-		for(int i=0;i <(N-1);i++){
+		System.out.println("Max score: "+max+"\nList of Highest scorer(s)");
+		for(int i=0;i <N;i++){
 			if(marks[i]==max)
 				System.out.println("Participant "+(i+1)+" score: "+marks[i]);
 		}
