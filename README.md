@@ -12,7 +12,7 @@ sorry for the inconvenience**
 
 all the questions along with the algorithm , source code variable description 
 table and output screenshots are available in one place in the 
-"ISC-class_11ComputerProjects.docx" word file
+"ComputerPractical_final_final_final.docx" word file
 
 and our stupid council for education has made it compulsory to do all
 the programs in blue j so some of the programs are missing "String args[]" ,etc, etc 
